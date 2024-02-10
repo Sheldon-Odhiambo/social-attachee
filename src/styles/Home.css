@@ -1,0 +1,137 @@
+/* Add your styles here */
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-sidebar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+/* ... Previous styles ... */
+
+.main-feed {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* ... Previous styles ... */
+
+/* ... Previous styles ... */
+
+.post-form {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image img {
+    border-radius: 50%;
+    margin-right: 10px; /* Add some margin to separate the image from the text area */
+  }
+  
+  .post-form textarea {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin-bottom: 10px;
+  }
+  
+  .post-form-footer {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+  }
+  
+  .post-form button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-form button:hover {
+    background-color: #005f99;
+  }
+  
+  /* ... Remaining styles ... */
+  
+  
+  .media-section,
+  .events-section,
+  .write-article-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e0e0e0; /* Light gray background for icons */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .media-section i,
+  .events-section i,
+  .write-article-section i {
+    font-size: 24px; /* Adjust the icon size */
+  }
+  
+  /* ... Remaining styles ... */
+  
+  
+
+  .right-sidebar {
+    flex: 1;
+  }
+  
+  .connections {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .connections ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .connections li {
+    margin-bottom: 10px;
+  }
+  
