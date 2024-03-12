@@ -1,17 +1,18 @@
 import '../styles/Navbar.css';
 import { Search, Person, Chat, Notifications } from '@mui/icons-material';
-import profile from "../assets/profile.jpeg"
+import profile from "../assets/profile.jpeg";
+import Logo from "../assets/logo.jpeg";
 
 const Navbar = () => {
   return (
    <div className="navbarContainer">
     <div className="navbarLeft">
-      <span className="logo">Attachee</span>
+      <img className ="logoImage" src={Logo} alt="" />
     </div>
     <div className="navbarCenter">
-      <div className="searchbar">
+      <div className="searchBar">
         <Search className="searchIcon" />
-        <input  placeholder="Search for products, brands or categories" />
+        <input className="searchInput" placeholder="Search" />
       </div>
     </div>
     <div className="navbarRight">

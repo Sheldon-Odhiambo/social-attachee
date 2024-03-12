@@ -1,17 +1,27 @@
 import "../styles/Rightbar.css"
+import Birthday from "../assets/gift.png";
+import Person1 from "../assets/1.jpeg";
+import Person2 from "../assets/2.jpeg";
+import Person3 from "../assets/3.jpeg";
+import Person4 from "../assets/4.jpeg";
+import Person5 from "../assets/5.jpeg";
+import Person6 from "../assets/6.jpeg";
+
+
+
 
 function Rightbar() {
   return (
     <div> 
        <div className="birthdayContainer">
-          <img className="birthdayImg" src="assets/gift.png" alt="" />
+          <img className="birthdayImg" src={Birthday} alt="" />
           <span className="birthdayText">
             <b>Pola Foster</b> and <b>3 other friends</b> have a birhday today.
           </span>
         </div>
-        <img className="rightbarAd" src="assets/ad.png" alt="" />
+        <img className="rightbarAd" src="" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
-        <ul className="rightbarFriendList">
+        <ul className="rig htbarFriendList">
           
         </ul>
 
@@ -34,7 +44,7 @@ function Rightbar() {
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/person/1.jpeg"
+              src={Person1}
               alt=""
               className="rightbarFollowingImg"
             />
@@ -42,7 +52,7 @@ function Rightbar() {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/2.jpeg"
+              src={Person2}
               alt=""
               className="rightbarFollowingImg"
             />
@@ -50,7 +60,7 @@ function Rightbar() {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/3.jpeg"
+              src={Person3}
               alt=""
               className="rightbarFollowingImg"
             />
@@ -58,7 +68,7 @@ function Rightbar() {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/4.jpeg"
+              src={Person4}
               alt=""
               className="rightbarFollowingImg"
             />
@@ -66,7 +76,7 @@ function Rightbar() {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/5.jpeg"
+              src={Person5}
               alt=""
               className="rightbarFollowingImg"
             />
@@ -74,7 +84,7 @@ function Rightbar() {
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/6.jpeg"
+              src={Person6}
               alt=""
               className="rightbarFollowingImg"
             />

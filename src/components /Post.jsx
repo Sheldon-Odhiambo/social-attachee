@@ -34,7 +34,8 @@ const Post = () => {
 
                 </div>
                 <div className="postBottomRight">
-                    <span className="postCommentText">3 comments</span>
+                    <span className="postCommentText">3 comments
+                    </span>
                 </div>
             </div>
         </div>
