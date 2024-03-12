@@ -1,6 +1,6 @@
 import '../styles/Navbar.css';
 import { Search, Person, Chat, Notifications } from '@mui/icons-material';
-import profile_image from "../assets/profile.png"
+import profile from "../assets/profile.jpeg"
 
 const Navbar = () => {
   return (
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <img src={profile_image} alt="" className='navbarImg'/>
+      <img src={profile} alt="" className='navbarImg'/>
     </div>
    </div>
 

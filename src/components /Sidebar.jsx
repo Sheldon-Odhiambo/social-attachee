@@ -10,6 +10,7 @@ import {
   Event,
   School,
 } from "@mui/icons-material";
+import John from '../assets/Doe.jpeg';
 
 function Sidebar() {
   return (
@@ -56,6 +57,35 @@ function Sidebar() {
       <button className="sidebarButton">Show More</button>
       <hr className="sidebarHr" />
       <ul className="sidebarFriendList">
+        <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        <li className="sidebarFriend">
+        <img className="sidebarFriendImg"src={John} alt="" />
+        <span className="sidebarFriendName">John Doe</span>
+      </li>
+      <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        <li className="sidebarFriend">
+          <img className="sidebarFriendImg"src={John} alt="" />
+          <span className="sidebarFriendName">John Doe</span>
+        </li>
+        
         
       </ul>
     </div>
