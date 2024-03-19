@@ -1,7 +1,7 @@
-import Sidebar from "../components /Sidebar";
-import Feed from "../components /Feed";
-import Rightbar from "../components /Rightbar";
-import Navbar from "../components /Navbar";
+import Sidebar from "./Sidebar";
+import Feed from "./Feed";
+import Rightbar from "./Rightbar";
+import Navbar from "./Navbar";
 import "../styles/Home.css";
 
 function Home() {

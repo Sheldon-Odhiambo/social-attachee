@@ -26,7 +26,7 @@
   height: auto; /* Maintain aspect ratio */
   margin-left: 200px;
   cursor: pointer; /* Adjust margin as needed */
-  boarder-radius:10px;
+  border-radius:10px;
 }
 .navbarCenter {
   flex: 5;
